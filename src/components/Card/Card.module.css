@@ -1,0 +1,22 @@
+.Card{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 0 4px;
+    padding: 4px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Card:focus{
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Card{
+        padding: 4px 20px;
+    }
+
+    
+}
